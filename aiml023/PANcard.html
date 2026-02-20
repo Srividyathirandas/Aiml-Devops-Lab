@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PAN Card Demo</title>
+    <style>
+        body {
+            background: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .pan-card {
+            width: 520px;
+            height: 320px;
+            background: linear-gradient(to right, #b7d9f7, #d7ecff);
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .govt {
+            text-align: right;
+        }
+
+        .emblem {
+            text-align: center;
+            margin: 5px 0;
+            font-weight: bold;
+        }
+
+        .content {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .details {
+            width: 65%;
+            font-size: 14px;
+        }
+
+        .details p {
+            margin: 6px 0;
+        }
+
+        .photo {
+            width: 35%;
+            text-align: center;
+        }
+
+        .photo img {
+            width: 100px;
+            height: 120px;
+            border: 1px solid #333;
+        }
+
+        .pan-number {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+         .signature {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            font-style: italic;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="pan-card">
+    <div class="top">
+        <div>
+            आयकर विभाग<br>
+            INCOME TAX DEPARTMENT
+        </div>
+        <div class="govt">
+            भारत सरकार<br>
+            GOVT. OF INDIA
+        </div>
+    </div>
+
+    <div class="emblem">
+        🦁
+    </div>
+
+    <div class="content">
+        <div class="details">
+            <p><strong>Name:</strong> SRIVIDYA</p>
+            <p><strong>Father's Name:</strong> SATISH CHANDRA</p>
+            <p><strong>Date of Birth:</strong> 19/04/2006</p>
+            <p class="pan-number">Permanent Account Number<br>ABCDE1234F</p>
+        </div>
+
+        <div class="photo">
+            <img src="https://via.placeholder.com/100x120" alt="Photo">
+        </div>
+    </div>
+
+    <div class="signature">
+        Signature
+    </div>
+</div>
+
+</body>
+</html>
